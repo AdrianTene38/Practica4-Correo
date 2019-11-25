@@ -12,7 +12,7 @@
         ?>
         <head>
             <meta charset="UTF-8">
-            <title>Sistema de Gestion de Mensajes Electronicos</title>
+            <title>Sistema de Gestion de Invitaciones</title>
         
         </head>
         <body>
@@ -40,7 +40,7 @@
                 ?>
             </section>
             <section class="mensajes">
-                <h3>Mensajes Electronicos</h3>
+                <h3>Invitaciones </h3>
                 <form class="form_mensajes">
                     <table id="buzon">
                         <tr>

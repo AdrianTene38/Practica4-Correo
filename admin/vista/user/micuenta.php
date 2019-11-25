@@ -20,8 +20,8 @@
         <nav>
             <ul>
                 <li><a href="index.php?codigo=<?php echo $codigo ?>">Inicio</a></li>
-                <li><a href="nuevo_mensaje.php?codigo=<?php echo $codigo ?>">Nuevo Mensaje</a></li>
-                <li><a href="mensajes_enviados.php?codigo=<?php echo $codigo ?>">Mensajes Enviados</a></li>
+                <li><a href="nuevo_mensaje.php?codigo=<?php echo $codigo ?>">Nueva Inivtacion</a></li>
+                <li><a href="mensajes_enviados.php?codigo=<?php echo $codigo ?>">Inivtaciones Enviados</a></li>
                 <li><a href="micuenta.php?codigo=<?php echo $codigo ?>">Mi cuenta</a></li>
                 <li><a href="../../../config/cerrar_sesion.php">Cerrar Sesion</a></li>
             </ul>
@@ -90,10 +90,6 @@
         <br>
         <br>
         <br>
-        <footer>
-        <br>
-            <p>Desarrollado por: Jonathan Matute <br><em> © Todos los derechos reservados</em></p>
-        <br>
-        </footer>
+       
     </body>
 </html>

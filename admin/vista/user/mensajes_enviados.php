@@ -24,8 +24,8 @@
             <nav>
                 <ul>
                     <li><a href="index.php?codigo=<?php echo $codigo ?>">Inicio</a></li>
-                    <li><a href="nuevo_mensaje.php?codigo=<?php echo $codigo ?>">Nuevo Mensaje</a></li>
-                    <li><a href="mensajes_enviados.php?codigo=<?php echo $codigo ?>">Mensajes Enviados</a></li>
+                    <li><a href="nuevo_mensaje.php?codigo=<?php echo $codigo ?>">Nueva Inivitacion</a></li>
+                    <li><a href="mensajes_enviados.php?codigo=<?php echo $codigo ?>">Inivitaciones Enviadas</a></li>
                     <li><a href="micuenta.php?codigo=<?php echo $codigo ?>">Mi cuenta</a></li>
                     <li><a href="../../../config/cerrar_sesion.php">Cerrar Sesion</a></li>
                 </ul>
@@ -47,7 +47,7 @@
           </section>
            
             <section class="mensajes">
-                <h3>Mensajes Enviados</h3>
+                <h3>Inivitaciones Enviados</h3>
                 <form id="form_mensajes">
                 <form id="form_mensajes"><input type="text" id="correoBuscar" name="correoBuscar" value="" onkeyup="buscarC2(<?php echo $codigo ?>)" placeholder="Buscar por correo...">
                     <div id="informacion">
