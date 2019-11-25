@@ -17,7 +17,8 @@
         </head>
         <body>
         <header class="header">
-            <nav>
+        <link rel="stylesheet" rel="stylesheet" href="../../../index.css">    
+        <nav>
                 <ul>
                     <li><a href="index.php?codigo_admin=<?php echo $codigo_admin ?>">Inicio</a></li>
                     <li><a href="usuarios.php?codigo_admin=<?php echo $codigo_admin ?>">Usuarios</a></li>
