@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="../css/crear_usuario.css">
+    <title>Ingresa Datos</title>
+</head>
+
+<body>
+    <div class="contenido">
+        <div class="formu">
+            <form id="formulario" method="POST" action="../controladores/crear_usuarios.php" onsubmit="return validarCamposObligatorios()">
+                <h3>Ingresa Tus Datos...!!!!</h3>
+                <div class="informacion">
+                    <label for="cedula">Cedula:</label>
+                    <input type="text" id="cedula" name="cedula" value="" placeholder="Ingrese cedula"
+                        oninput="return validarCedula()" onkeypress="return validarNumero(event)" maxlength="10" />
+                    <span id="mensajeCedula" class="error"></span>
+                </div>
+                <div class="informacion">
+                    <label for="nombre">Nombres:</label>
+                    <input type="text" id="nombre" name="nombre" value="" placeholder="Ingrese nombres" minlength="3"
+                        onkeypress="return validarTexto(event)" oninput="return validarNombre()" />
+                    <span id="mensajeNombre" class="error"></span>
+                </div>
+                <div class="informacion">
+                    <label for="apellido">Apellidos:</label>
+                    <input type="text" id="apellido" name="apellido" value="" placeholder="Ingrese apellidos"
+                        minlength="3" onkeypress="return validarTexto(event)" oninput="return validarApellido()" />
+                    <span id="mensajeApellido" class="error"></span>
+                </div>
+                <div class="informacion">
+                    <label for="direccion">Direccion:</label>
+                    <input type="text" id="direccion" name="direccion" value="" placeholder="Ingrese direccion" />
+                    <span id="mensajeDireccion" class="error"></span>
+                </div>
+                <div class="informacion">
+                    <label for="telefono">Telefono:</label>
+                    <input type="text" id="telefono" name="telefono" value="" placeholder="Ingrese telefono"
+                        onkeypress="return validarNumero(event)" maxlength="10" />
+                    <span id="mensajeTelefono" class="error"></span>
+                </div>
+                <div class="informacion">
+                    <label>fecha_nacimiento</label>
+                    <input type="date" name="fD" id="fD">
+                    <br>
+                </div>
+                <div class="informacion">
+                <label> rol </label>
+                <input type="text" name="rol" id="rol">
+                </div>
+
+                <div class="informacion">
+                    <label for="email">Correo Electronico:</label>
+                    <input type="text" id="email" name="email" value="" placeholder="Ingrese correo"
+                        oninput="return validarCorreo()" />
+                    <span id="mensajeEmail" class="error"></span>
+                </div>
+                <div class="informacion">
+                    <label for="password">Contraseña:</label>
+                    <input type="password" id="password" name="password" value="" placeholder="Ingrese contraseña"
+                        oninput="return validarPassword()" />
+                    <span id="mensajePassword" class="error"></span>
+                </div>
+                <div class="botones">
+                    <input class="boton" id="btn" type="submit" value="Enviar"disabled >
+                    <input class="boton" id="btnLimpiar" type="button" value="Borrar" onclick="limpiar()">
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
