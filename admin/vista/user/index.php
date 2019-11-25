@@ -8,7 +8,7 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>Sistema de Gestion de Mensajes Electronicos</title>
+        <title>Sistema de Gestion de Invitaciones</title>
         <script type="text/javascript" src="ajax.js"></script>
         <link rel="stylesheet" rel="stylesheet" href="../../../index.css">
     </head>
@@ -43,14 +43,14 @@
           </section>
           
         <section class="mensajes">
-            <h3>Mensajes Recibidos</h3>
+            <h3>Invitaciones Recibidas</h3>
             <form id="form_mensajes"><input type="text" id="correoBuscar" name="correoBuscar" value="" onkeyup="buscarC(<?php echo $codigo ?>)" placeholder="Buscar por correo...">
                 <div id="informacion">
                 <table id="buzon">
                     <tr>
                         <th>De</th>
-                        <th>Asunto</th>
-                        <th>Mensaje</th>
+                        <th>Lugar</th>
+                        <th>Invitacion</th>
                         <th>Fecha y hora</th>
                     </tr>
                     <?php

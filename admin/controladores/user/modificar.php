@@ -6,7 +6,8 @@
     </head>
     <body>
         <?php
-            include '../../../config/conexionBD.php';
+           
+           include '../../../config/conexionBD.php';
 
             $codigo = $_POST["codigo"];
             $cedula = isset($_POST["cedula"]) ? trim($_POST["cedula"]) : null;

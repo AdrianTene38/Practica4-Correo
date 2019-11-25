@@ -79,10 +79,6 @@
                     $conn->close();
                 ?>
         </table>   
-        <footer>
-				<p>Desarrollado por:<br> Jonathan Matute</p>
-			    <p><sub>&#169;</sub><em> Todos los derechos reservados</em></p>
-			    <br>
-        </footer>
+      
     </body>
 </html>
