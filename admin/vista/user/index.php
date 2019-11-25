@@ -97,10 +97,5 @@
         <br>
         <br>
         <br>
-        <footer>
-        <br>
-            <p>Desarrollado por: Jonathan Matute <br><em> © Todos los derechos reservados</em></p>
-        <br>
-        </footer>
     </body>
 </html>
