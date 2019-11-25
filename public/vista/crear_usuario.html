@@ -13,7 +13,7 @@
 <body>
     <div class="contenido">
         <div class="formu">
-            <form id="formulario" method="POST" action="../controladores/crear_usuarios.php" onsubmit="return validarCamposObligatorios()">
+            <form id="formulario" method="POST" action="../controladores/crear_usuario.php" onsubmit="return validarCamposObligatorios()">
                 <h3>Ingresa Tus Datos...!!!!</h3>
                 <div class="informacion">
                     <label for="cedula">Cedula:</label>
@@ -49,11 +49,8 @@
                     <input type="date" name="fD" id="fD">
                     <br>
                 </div>
-                <div class="informacion">
-                <label> rol </label>
-                <input type="text" name="rol" id="rol">
-                </div>
-
+                
+               
                 <div class="informacion">
                     <label for="email">Correo Electronico:</label>
                     <input type="text" id="email" name="email" value="" placeholder="Ingrese correo"
