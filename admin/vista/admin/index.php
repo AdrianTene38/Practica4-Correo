@@ -1,7 +1,7 @@
 <?php
     session_start();
     if(!isset($_SESSION['isLogged']) || $_SESSION['isLogged'] === FALSE){
-        header("Location: /Practica04-Mi-Correo-Electronico/public/vista/login.html");
+        header("Location: /Practica4-Correo/public/vista/login.html");
     }
     ?>
     <!DOCTYPE html>
@@ -13,7 +13,7 @@
         <head>
             <meta charset="UTF-8">
             <title>Sistema de Gestion de Mensajes Electronicos</title>
-            <link rel="stylesheet" rel="stylesheet" href="../../../index.css">
+        
         </head>
         <body>
         <header class="header">
@@ -91,10 +91,5 @@
                 </table>
             </form>
         </section>
-        <footer>
-				<p>Desarrollado por:<br> Jonathan Matute</p>
-			    <p><sub>&#169;</sub><em> Todos los derechos reservados</em></p>
-			    <br>
-        </footer>
     </body>
 </html>

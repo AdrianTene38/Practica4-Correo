@@ -2,5 +2,5 @@
     session_start();
     $_SESSION['isLogged'] = FALSE;
     session_destroy();
-    header("Location: /Practica04-Correo/public/vista/login.html");
+    header("Location: /Practica4-Correo/public/vista/login.html");
 ?>

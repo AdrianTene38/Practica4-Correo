@@ -1,0 +1,363 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: url(img/fondo.jpg)
+}
+
+.box{
+    width: 300px;
+    padding: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #191919;
+    text-align: center;
+}
+
+.box h1, .box_registro h1{
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.main  {
+    padding: 10rem 0;
+}
+
+.main .mail{
+    width: 85%;
+    max-width: 850px;
+    margin: 0 auto;
+}
+
+#cedula{
+    margin-top: 4%;
+}
+
+.login:focus{
+    width: 280px;
+    border-color: #db1010;
+}
+
+
+.footer{
+    width: 100%;
+    position: absolute;
+    top: 100vh;
+    height: auto;
+    margin: auto;
+    background: black;
+    padding: 20px 0px;
+	text-decoration: none;
+}
+
+.boton{
+    border:0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid  #db1010;
+    padding: 14px 40px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+    clear: both;
+}
+
+.boton:hover{
+    background: #db1010;
+}
+
+
+#crearUsu{
+    width: 300px;
+    padding: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #191919;
+    text-align: center;
+}
+
+.error, .box p{
+    text-align: center;
+    color:black;
+    font-size: 20px;
+
+}
+
+.box a{
+    color: #db1010;
+    font-size: 18px;
+}   
+
+nav li:hover{
+    background: #db1010;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    display: block;
+    padding: 0.5rem 1rem;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    transition: all 0.4s all;
+    text-decoration: none;
+    border-radius: 5px;
+    color: white;
+}
+
+.header{
+    background: rgba(0,0,0,0.8);
+    padding: 1rem 0;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+}
+
+.info{
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+
+.info img{
+    width: 150px;
+    border: 2px solid #db1010;
+    border-radius: 24px;
+}
+
+.info p{
+    color:black;
+    font-weight: bold;
+}
+
+.mensajes{
+    clear: both;
+    width: 100%;
+}
+
+.mensajes h3{
+    color: black;
+    text-align: center;
+}
+
+#buzon{
+    margin-left: center;
+    margin-right: auto;
+    text-align: center;
+    width: 100%;
+    color: #000;
+    clear: both;
+    height: 10px;
+    border: 2px solid #000;
+    border-collapse: collapse;
+}
+
+#buzon td{
+        border: 2px solid #000;
+        padding: 5px;
+        
+    }
+#buzon tr:hover,#buzon td:hover{
+        background: #000;
+        color: white; 
+    }
+
+#buzon th{
+    border: 2px solid #000;
+    padding: 5px;
+    background: linear-gradient(to bottom,
+    rgba(255, 255, 255, .6),
+    rgba(0, 0, 0, .6));
+
+}
+
+footer{
+    text-align: center;
+    color: white;
+    width: 100%;
+    bottom: 0;
+    clear: both;
+    background: #191919;   
+}
+
+#form_mensajes input[type=text]{
+    border:0;
+    background: none;
+    display: block;
+    margin: 20px 50px;
+    border-bottom: 2px solid;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: black;
+    transition: 0.25s;
+    float: left;
+}
+
+#form_mensajes input[type=submit]{
+    border:0;
+    background: none;
+    display: block;
+    margin: 20px;
+    text-align: center;
+    border: 2px solid  #db1010;
+    padding: 14px 40px;
+    outline: none;
+    color: black;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+    float: left;
+}
+
+#form_mensajes input[type=submit]:hover{
+    background:  #db1010;
+}
+
+#formulario01{
+    width: 50%;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    background: rgba(0, 0, 0, .4);;
+    clear: both;
+    text-align: center;
+}
+
+#formulario01 label{
+    display: block;
+    color: black;
+    min-width: 7%;
+    width: 7%;
+    float: left;
+}
+
+#formulario01 input[type="text"]{
+    clear: both;
+    min-width: 80%;
+    width: 90%;
+
+
+    border:0;
+    background: none;
+    display: block;
+    margin: 20px 50px;
+    border-bottom: 2px solid;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color:black;
+    transition: 0.25s;
+}
+
+#formulario01 input[type="submit"],#formulario01 input[type="reset"]{
+    border:0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid  #db1010;
+    padding: 14px 40px;
+    outline: none;
+    color: black;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;    
+}
+
+#formulario01 input[type="submit"]:hover,#formulario01 input[type="reset"]:hover{
+    background:  #db1010;
+}
+
+
+.accion a{
+    color: black;
+    text-decoration: none;
+}
+.accion a:hover{
+    color:  #db1010;
+}
+
+.box h3{
+    color: black;
+    text-align: center;
+}
+
+h3{
+    color: black;
+    text-align: center;
+}
+
+.box input[type="file"]{
+    color: black;
+    width: 300px;
+}
+
+.box .contrasena, .box .modificar,.box .elimina{
+    color:black;
+    text-align: center;
+}
+
+.box #contrasena1,.box #contrasena2{
+    clear: both;
+    width: 3%;
+
+
+    border:0;
+    background: none;
+    display: block;
+    margin: 20px 50px;
+    border-bottom: 2px solid;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color:black;
+    transition: 0.25s;
+}
+
+.modificar + input, .elimina + input{
+    clear: both;
+    width: 80%;
+    margin: auto;
+
+    border:0;
+    background: none;
+    display: block;
+    border-bottom: 2px solid;
+    padding: 7px 10px;
+    outline: none;
+    color: black;
+    transition: 0.25s;
+}
+
+.info2{
+    margin-left: auto;
+    margin-right: 20px;
+    width: 35%;
+    float: right;
+    text-align: center;
+}
+
+.info2 img{
+    width: 150px;
+    border: 2px solid  #db1010;
+    border-radius: 24px;
+}
+
+.info2 p{
+    color: black;
+    font-weight: bold;
+}

@@ -6,7 +6,7 @@
      <meta http-equiv="X-UA-Compatible" content="ie=edge">
      <title>Crear nuevo documento</title>
      <style type = "text/css" ref= "stylesheet">
-     error{
+    .error{
          color: red;
      }
      </style>

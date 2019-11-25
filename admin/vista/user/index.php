@@ -1,7 +1,7 @@
 <?php
     session_start();
     if(!isset($_SESSION['isLogged']) || $_SESSION['isLogged'] === FALSE){
-        header("Location: /Practica04-Mi-Correo-Electronico/public/vista/login.html");
+        header("Location: /Practica4-Correo/public/vista/login.html");
     }
 ?>
 <!DOCTYPE html>
