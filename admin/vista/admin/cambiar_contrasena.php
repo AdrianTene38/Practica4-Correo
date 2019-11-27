@@ -1,7 +1,7 @@
 <?php
     session_start();
     if(!isset($_SESSION['isLogged']) || $_SESSION['isLogged'] === FALSE){
-        header("Location: /Practica4-Correo/public/vista/login.html");
+        header("Location: /Practica04-Mi-Correo-Electronico/public/vista/login.html");
     }
     ?>
     <!DOCTYPE html>
@@ -9,7 +9,7 @@
         <head>
             <meta charset="UTF-8">
             <title>Cambiar Contrasena</title>
-            <link rel="stylesheet" rel="stylesheet" href="../../../style.css">
+    <link rel="stylesheet" rel="stylesheet" href="../../../index.css">
         </head>
         <body>
             <?php

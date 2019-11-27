@@ -1,6 +1,6 @@
 function buscarC(codigo){
-    var correo = document.getElementById("correoBuscar").value;
-    if(correo == ""){
+    var motivo = document.getElementById("buscarMotivo").value;
+    if(motivo == ""){
         document.getElementById("informacion").innerHTML = "";
     }else {
         if (window.XMLHttpRequest){
@@ -15,7 +15,7 @@ function buscarC(codigo){
                 document.getElementById("informacion").innerHTML = this.responseText;
             }
         };
-        xmlhttp.open("GET","buscar.php?codigo="+codigo+"&correo="+correo,true);
+        xmlhttp.open("GET","buscar.php?codigo="+codigo+"&motivo="+motivo,true);
         xmlhttp.send();
     }
 

@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Eliminar datos de persona</title>
+    <title>Eliminar Reunion</title>
     <link rel="stylesheet" rel="stylesheet" href="../../../index.css">
 </head>
 
@@ -12,16 +12,16 @@
     //Incluir conexion a la BD
     include '../../../config/conexionBD.php';
     $codigo_admin = $_GET["codigo_admin"];
-    $codigo = $_POST["codigo"];
+    $codigo_reunion = $_GET["codigo_reunion"];
     date_default_timezone_set("America/Guayaquil");
     $fecha = date("Y-m-d H:i:s", time());
-    $sql = "UPDATE usuario SET usu_eliminado = 'S', usu_fecha_modificacion = '$fecha' WHERE usu_codigo = '$codigo'";
-    if ($conn->query($sql) == TRUE) {
-        echo "<p>Se ha eliminado los datos correctamente</p>";
+    $sql = "UPDATE reunion SET reu_eliminado = 'S' WHERE reu_codigo = '$codigo_reunion'";
+    if ($conn->query($sql) === TRUE) {
+        echo "<p>Se ha eliminado el mensaje electronico correctamente</p>";
     } else {
         echo "<p>Error" . $sql . "<br>" . mysqli_error($conn) . "</p>";
     }
-    echo "<a href='../../vista/admin/usuarios.php?codigo_admin=" . $codigo_admin . "'>Regresar</a>";
+    echo "<a href='../../vista/admin/index.php?codigo_admin=" . $codigo_admin . "'>Regresar</a>";
     $conn->close();
     ?>
 </body>
