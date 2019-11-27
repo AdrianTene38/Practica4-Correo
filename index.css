@@ -209,9 +209,7 @@ footer{
     float: left;
 }
 
-#form_mensajes input[type=submit]:hover{
-    background:  #db1010;
-}
+
 
 #formulario01{
     width: 50%;
@@ -264,23 +262,7 @@ footer{
     cursor: pointer;    
 }
 
-#formulario01 input[type="submit"]:hover,#formulario01 input[type="reset"]:hover{
-    background:  #db1010;
-}
 
-
-.accion a{
-    color: black;
-    text-decoration: none;
-}
-.accion a:hover{
-    color:  #db1010;
-}
-
-.box h3{
-    color: black;
-    text-align: center;
-}
 
 h3{
     color: black;
@@ -321,7 +303,6 @@ h3{
 
     border:0;
     background: none;
-    display: block;
     border-bottom: 2px solid;
     padding: 7px 10px;
     outline: none;
