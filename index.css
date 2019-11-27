@@ -1,7 +1,18 @@
 html{
-background-color:red;
-
+background-color: red;
 }
+
+.box{
+    width: 300px;
+    padding: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #191919;
+    text-align: center;
+}
+
 .box h1, .box_registro h1{
     color: white;
     text-transform: uppercase;
@@ -102,7 +113,7 @@ nav ul li a {
 }
 
 .header{
-    background: gold
+    background: rgba(0,0,0,0.8);
     padding: 1rem 0;
     position: fixed;
     left: 0;
@@ -209,7 +220,9 @@ footer{
     float: left;
 }
 
-
+#form_mensajes input[type=submit]:hover{
+    background:  #db1010;
+}
 
 #formulario01{
     width: 50%;
@@ -262,7 +275,23 @@ footer{
     cursor: pointer;    
 }
 
+#formulario01 input[type="submit"]:hover,#formulario01 input[type="reset"]:hover{
+    background:  #db1010;
+}
 
+
+.accion a{
+    color: black;
+    text-decoration: none;
+}
+.accion a:hover{
+    color:  #db1010;
+}
+
+.box h3{
+    color: black;
+    text-align: center;
+}
 
 h3{
     color: black;
@@ -303,6 +332,7 @@ h3{
 
     border:0;
     background: none;
+    display: block;
     border-bottom: 2px solid;
     padding: 7px 10px;
     outline: none;
