@@ -1,6 +1,6 @@
 html {
     box-sizing: border-box;
-   
+   background-color: red;
 }
 
 body {
@@ -16,14 +16,14 @@ background-color: blue;
 form {
     width: 450px;
     margin: auto;
-    background: rgba(0, 0, 0, .2);
+    background: gold
     padding: 10px 20px;
     margin-top: 250px;
     border-radius: 7px;
 }
 
 h2 {
-    color: black;
+    color: gold
     text-align: center;
     margin: 0;
     font-size: 30px;
