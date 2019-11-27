@@ -18,7 +18,7 @@
         $apellidos = isset($_POST["apellido"]) ? mb_strtoupper(trim($_POST["apellido"]), 'UTF-8') : null;
         $direccion = isset($_POST["direccion"]) ? mb_strtoupper(trim($_POST["direccion"]), 'UTF-8') : null;
         $telefono = isset($_POST["telefono"]) ? trim($_POST["telefono"]) : null;
-        $correo = isset($_POST["email"]) ? trim($_POST["email"]) : null;
+        $correo = isset($_POST["correo"]) ? trim($_POST["correo"]) : null;
         $fD = isset($_POST["fD"]) ? trim($_POST["fD"]) : null;
         $contrasena = isset($_POST["contrasena"]) ? trim($_POST["contrasena"]) : null;
 

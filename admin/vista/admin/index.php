@@ -1,7 +1,7 @@
 <?php
 session_start();
 if (!isset($_SESSION['isLogged']) || $_SESSION['isLogged'] === FALSE) {
-    header("Location: /SistemaDeGestion/public/vista/login.html");
+    header("Location: /Practica4-Correo/public/vista/login.html");
 }
 ?>
 <!DOCTYPE html>
@@ -89,9 +89,8 @@ $codigo_admin = $_GET['codigo_admin'];
                         return $direccionCorreo;
                     }
 
-
-
                     $conn->close();
+
                     ?>
                 </table>
             </form>

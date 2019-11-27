@@ -2,8 +2,8 @@
     session_start();
     
     include '../../config/conexionBD.php';
-    $usuario = isset($_POST["correo"]) ? trim($_POST["correo"]) : null;
-    $contrasena = isset($_POST["contrasena"]) ? trim($_POST["contrasena"]) : null;
+    $usuario = isset($_POST["email"]) ? trim($_POST["email"]) : null;
+    $contrasena = isset($_POST["password"]) ? trim($_POST["password"]) : null;
     $sql = "SELECT * FROM usuario WHERE usu_correo = '$usuario' and usu_password = MD5('$contrasena')";
     $result = $conn->query($sql);
     //Una vez verificado el correo y contrasena se inica una sesion y dependiendo del rol del usuario se envia a su index.html correspondiente
